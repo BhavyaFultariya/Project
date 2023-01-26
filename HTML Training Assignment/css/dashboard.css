@@ -1,6 +1,10 @@
+.hd{
+    position: fixed;
+}
 .menu-bar{
     height: 25px;
     width: 25px;
+    margin-left: 10px;
 }
 .hlogo{
     height: 30px;
@@ -15,6 +19,25 @@
 .txtsearch{
     border: hidden;
     height: 50px;
-    width: 900px;
+    width: 950px;
 }
 
+.avatar{
+
+    margin-left: 15px;
+    position: fixed;
+}
+ .name{
+    margin-left: 70px;
+    margin-top: 10px;
+    position: fixed;
+ }
+
+ .darrow{
+    margin-left: 150px;
+ }
+ 
+ .sidebar{
+    width: 242px;
+    height: 1279px;
+ }
