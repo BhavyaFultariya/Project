@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+/*Dashboard css*/
 header{
     position: sticky;
     top: 0;
@@ -237,3 +237,22 @@ opacity: 1;
 .table{
     font-size: 15px;
 }
+
+/*Inner page css*/
+
+.analysis-content{
+    top: 182px;
+left: 292px;
+width: 1218px;
+height: 1749px;
+}
+
+.subtopics{
+    margin-left: 250px;
+    color: #3E3E3E;
+}
+
+.ip{
+    width:1157px;
+}
+
