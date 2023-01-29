@@ -7,80 +7,272 @@
 </head>
 
 <body style="font: normal normal medium 22px/29px Roboto;">
-
-    <header>
-        <nav class="navbar">
-            <div class="navbar-content-container">
-                <button type="button" id="menu">
-                    <img style="width: 30px; height: 30px;" src="images/menu-bar.svg" alt="Menu">
-                </button>
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.svg" alt="Company">
-                </a>
-                <div class="input-group search-wrapper">
-                    <span class="input-group-text" id="basic-addon1"><img src="images/search-icon.svg"></span>
-                    <input type="search" class="form-control search-input" placeholder="Search" aria-label="Username"
-                        aria-describedby="basic-addon1">
-                </div>
-            </div>
-            <div class="navbar-content-container">
-                <button class="notification-btn">
-                    <img src="images/notification-icon.svg" alt="Notification">
-                </button>
-                <div class="user">
-                    <div class="user-item user-profile-img">
-                        <img src="images/profile.png">
-                    </div>
-                    <button type="button" class="user-item user-name-btn">
-                        <span class="user-name">John Doe</span>
-                        <span class="down-icon ms-2">
-                            <img src="images/downward-arrow.svg">
-                        </span>
+    <div class="hs">
+        <header>
+            <nav class="navbar" style="position: sticky;">
+                <div class="navbar-content-container">
+                    <button type="button" id="menu">
+                        <img style="width: 30px; height: 30px;" src="images/menu-bar.svg" alt="Menu">
                     </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.svg" alt="Company">
+                    </a>
+                    <div class="input-group search-wrapper">
+                        <span class="input-group-text" id="basic-addon1"><img src="images/search-icon.svg"></span>
+                        <input type="search" class="form-control search-input" placeholder="Search"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="navbar-content-container" style="position: sticky;">
+                    <button class="notification-btn">
+                        <img src="images/notification-icon.svg" alt="Notification">
+                    </button>
+                    <div class="user">
+                        <div class="user-item user-profile-img">
+                            <img src="images/profile.png">
+                        </div>
+                        <button type="button" class="user-item user-name-btn">
+                            <span class="user-name">John Doe</span>
+                            <span class="down-icon ms-2">
+                                <img src="images/downward-arrow.svg">
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="sidebar" style="position: sticky;">
+                <div>
+                    <a class="sidebar-content-title" href=""><img height="20" width="20"
+                            src="images/dashboard-default.svg" alt=""><span>Dashboard</span></a>
+                    <a style="background-color: #FFF3F4;" class="sidebar-content-title" href=""><img height="20"
+                            width="20" src="images/graph-active.svg" alt=""><span
+                            style="background-color: #FFF3F4; color: #C8242F;">Analysis</span></a>
+                    <a class="sidebar-content-title" href=""><img height="20" width="20" src="images/inbox-default.svg"
+                            alt=""><span>Inbox</span></a>
+                    <a class="sidebar-content-title" href=""><img height="20" width="20" src="images/clock-default.svg"
+                            style="background-color: #FFF3F4;" alt=""><span>History</span></a>
+                    <a class="sidebar-content-title" href=""><img height="20" width="20" src="images/user-default.svg"
+                            alt=""><span>User</span></a>
+                    <a class="sidebar-content-title" href=""><img height="20" width="20"
+                            src="images/maintenance-default.svg" alt=""><span>Maintenance</span></a>
+                    <a class="sidebar-content-title" href=""><img height="20" width="20"
+                            src="images/setting-default.svg" alt=""><span>Setting</span></a>
                 </div>
             </div>
-        </nav>
-    </header>
+    </div>
 
-    <main>
-        <div class="sidebar">
-            <div>
-                <a class="sidebar-content-title" href=""><img height="20" width="20" src="images/dashboard-default.svg"
-                        alt=""><span>Dashboard</span></a>
-                <a style="background-color: #FFF3F4;" class="sidebar-content-title" href=""><img height="20" width="20"
-                        src="images/graph-active.svg" alt=""><span
-                        style="background-color: #FFF3F4; color: #C8242F;">Analysis</span></a>
-                <a class="sidebar-content-title" href=""><img height="20" width="20" src="images/inbox-default.svg"
-                        alt=""><span>Inbox</span></a>
-                <a class="sidebar-content-title" href=""><img height="20" width="20" src="images/clock-default.svg"
-                        style="background-color: #FFF3F4;" alt=""><span>History</span></a>
-                <a class="sidebar-content-title" href=""><img height="20" width="20" src="images/user-default.svg"
-                        alt=""><span>User</span></a>
-                <a class="sidebar-content-title" href=""><img height="20" width="20"
-                        src="images/maintenance-default.svg" alt=""><span>Maintenance</span></a>
-                <a class="sidebar-content-title" href=""><img height="20" width="20" src="images/setting-default.svg"
-                        alt=""><span>Setting</span></a>
-            </div>
-        </div>
-        <div class="content">
+    <div class="content">
+        <br>
+        <h5>Analysis</h5>
+        <div class="analysis-content">
             <br>
-            <h5>Analysis</h5>
-            <div class="analysis-content">
-                <br>
-                <h6 class="subtopics">One column</h6>
-                <form action="" class="login-form">
-                    <div class="input">
-                        <form action="">
-                            <input  class="ip" type="text" placeholder="Name" >
-                           
-                        </form>
+            <h6 class="subtopics">One Column</h6>
+            <div>
+                <div class="row">
+                    <div class="column">
+                        <input class="form-control w-100" type="text" placeholder="Default input">
                     </div>
-                </form>
-                
-            </div>
-        </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="column">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Dropdown</option>
+                            <option value="1">Tatvasoft</option>
+                            <option value="2">Microsoft</option>
+                            <option value="3">Amazon</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="column">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Multiple Line"></textarea>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h6 class="subtopics">Two Column</h6>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <input class="form-control w-100" type="text" placeholder="Name">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="input-container">
+                            <input type="text" id="name" class="form-control input" placeholder="Name">
+                            <label for="name" class="floating-label">Name</label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <input class="form-control w-100" type="password" placeholder="Password">
+                    </div>
+                    <div class="col-lg-6">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Dropdown</option>
+                            <option value="1">Tatvasoft</option>
+                            <option value="2">Microsoft</option>
+                            <option value="3">Amazon</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h6 class="subtopics">Three Column</h6>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="input-container">
+                            <input type="text" id="name" class="form-control input" placeholder="Focus">
+                            <label for="name" class="floating-label">Focus</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="input-container">
+                            <input type="password" id="name" class="form-control input" placeholder="Password">
+                            <label for="name" class="floating-label">Password</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="input-container">
+                            <input style="border: 1px dashed #ADADAD; background-color: #FFFFFF; color: #ADADAD;"
+                                type="text" id="name" class="form-control input disabled" value="bhavya"
+                                placeholder="Disable" disabled>
+                            <label style="color: #ADADAD;" for="name" class="floating-label">Disabled</label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h6 class="subtopics">Four Column</h6>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="input-container">
+                            <input type="text" id="name" class="form-control input" placeholder="Designation">
+                            <label style="color: #C8242F;" for="name" class="floating-label">Designation</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <input class="form-control w-100" type="text" placeholder="Name">
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="input-container">
+                            <input type="text" id="name" class="form-control input" placeholder="Name">
+                            <label for="name" class="floating-label">Name</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select</option>
+                            <option value="1">Tatvasoft</option>
+                            <option value="2">Microsoft</option>
+                            <option value="3">Amazon</option>
+                        </select>
+                    </div>
+                    <div class="des">
+                        <div>
+                            <p class="frp">Enter valid data</p>
+                        </div>
+                        <div>
+                            <p class="frs">Enter your full name as per ID</p>
+                        </div>
 
-    </main>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <h6 class="subtopics">Other Design Elements</h6><br>
+                <h6 class="supsub">File Upload</h6>
+                <div class="input-container file-upload-container">
+                    <label for="file-upload" class="file-upload-label">
+                        <img src="images/cloud-upload-icon.svg">
+                        <span>Upload</span>
+                    </label>
+                    <input type="file" id="file-upload" class="file-upload">
+                </div>
+                <br>
+                <h6 class="supsub">Radio Button</h6>
+                <div classs="radio-btn">
+                    <span>
+                        <input type="radio" id="html" name="fav_language" value="Option 1">
+                        <label for="html">Option 1</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="html" name="fav_language" value="Option 1">
+                        <label for="html">Option 2</label>
+                    </span>
+                </div><br>
+                <h6 class="supsub">SnackBar</h6>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="alert alert-danger" role="alert">
+                            <img src="images/error-icon.svg" alt="">
+                            This is an error message
+                          </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="alert alert-info" role="alert">
+                            <img src="images/info-icon.svg" alt="">
+                            This is an information message!
+                          </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="alert alert-warning" role="alert">
+                            <img src="images/warning-icon.svg" alt="">
+                            This is a warning message!
+                          </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="alert alert-success" role="alert">
+                            <img src="images/success-icon.svg" alt="">
+                            This is a sucess message!
+                          </div>
+                    </div>
+                </div>
+                <br>
+                <h6 class="supsub" style="margin-left: -12px;">File Upload</h6>
+                <div class="action">
+                    <div>
+                        <button type="button" class="primary-action">Primary</button>
+                    </div>
+                    <div>
+                        <button style="margin-left: 10px;" type="button" class="secondary-action">Secondary</button>
+                    </div>
+                </div>
+                <br><br><br>
+                <div class="row mb-4">
+                    <div class="row-title mb-3">Tabs</div>
+                    <div class="col">
+                        <ul class="nav nav-tabs mb-4">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Tab 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tab 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tab 3</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iusto eligendi rem
+                            provident ullam ex laboriosam molestiae velit, similique quae, quo praesentium nobis
+                            aliquam, perferendis error. Accusamus, molestiae deleniti? Laboriosam quod totam
+                            officiis natus repellendus, veniam modi, earum ab in maiores deleniti ea, impedit animi
+                            nulla unde aspernatur dicta incidunt inventore aliquid soluta dolores! Iure molestiae
+                            soluta voluptates neque repellat magnam ab possimus eligendi incidunt dolore debitis
+                            quae, mollitia porro doloribus impedit sunt inventore odit nemo qui eos officia illo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </main>
 
 
 
