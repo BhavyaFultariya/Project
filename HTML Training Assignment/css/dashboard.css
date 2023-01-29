@@ -99,7 +99,7 @@ header {
     top: 80px;
     box-sizing: border-box;
     width: 242px;
-    height: 1279px;
+    height: 1600px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     padding: 25px 30px;
@@ -341,10 +341,6 @@ header {
     color: #3E3E3E;
 }
 
-.alert alert-warning{
-    width: 563px;
-}
-
 .file-upload-container {
     display: flex;
     align-items: center;
@@ -443,3 +439,17 @@ input[type="radio"] {
     background: #FFFFFF;
     text-align: center;
 } */
+
+.nav-tabs{
+    border-bottom: 1px solid #ADADAD !important;
+}
+
+.nav-link{
+    color: #ADADAD !important;
+    border: none !important;
+}
+
+.active{
+    color: #C8242F !important;
+    border-bottom: 1px solid #C8242F !important;
+}
