@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
-<body style="font: normal normal medium 22px/29px Roboto;">
-
+<body style="font: normal normal medium 22px/29px Roboto;  background-color: #FAFAFA;">
+<!-- Header -->
     <header>
         <nav class="navbar">
             <div class="navbar-content-container">
@@ -41,7 +41,7 @@
             </div>
         </nav>
     </header>
-
+<!-- Sidebar -->
     <main>
         <div class="sidebar">
             <div>
@@ -61,6 +61,7 @@
                         alt=""><span>Setting</span></a>
             </div>
         </div>
+        <!-- Main dashboard content -->
         <div class="content">
             <div>
                 <div class="dashboard">
@@ -88,9 +89,11 @@
                         <p class="inneritem-text">Total Sale</p>
                     </div>
                 </div>
-
             </div>
-
+            <br>
+            <br>
+            <br><br>
+            <!-- Charts -->
             <div class="row">
                 <div class="col-lg-8">
                     <span style="font-size: 22px;"><strong>Sale</strong></span>
@@ -100,7 +103,7 @@
                     <span class="year">Yearly</span><br>
                     <img class="graph" src="images\data-graph.png" alt="data-graph">
                 </div>
-                <div class="col-lg-4" style="float: left;">
+                <div class="col-lg-4" style="float: left; background-color: #FFFFFF;">
                     <h5>Sales by Country</h5>
                     <img src="images/pie-chart.svg" alt="">
                     <div class="first">
@@ -113,12 +116,18 @@
                     </div>
 
                 </div>
-            </div>
-
-
+            </div><br><br>
+            <!-- Table -->
             <div class="row">
                 <div class="ptable">
-                    <span style="font-size: 22px;"><strong>Invoice</strong></span>
+                    <div style="display: flex; justify-content: space-between;"> 
+                        <div>
+                            <span style="font-size: 22px; color: #3E3E3E;">Invoice</span>
+                        </div>
+                        <div style="font-size: 15px; color: #C8242F;">
+                            <p>View all</p>
+                        </div>
+                    </div>
                     <table class="table">
                         <thead>
                             <tr>
