@@ -84,12 +84,21 @@
 }
 
 @media (max-width:1024px){
-    .images{
-        height: 400px;
-        width: 400px;
-    }
-    .div1{
-        flex: none;
-    }
+  .div1{
+    position: relative;
+  }
+  .content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+  }
+  .div2{
+    top: 0;
+    bottom: 0;
+  }
+  .images{
+    opacity: 0.5;
+  }
   
 }
