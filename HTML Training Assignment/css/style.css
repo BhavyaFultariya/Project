@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-#div1{
+#div1 {
     display: flex;
 }
 
-#div2{
+#div2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
     height: 100vh;
 }
 
-.images{
+.images {
     width: 556px;
     height: 556px;
     border: 20px solid #FFFFFF;
@@ -27,60 +27,69 @@
     box-shadow: 0 4px 31px #00000034;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.company-slogan{
+.company-slogan {
     font-size: 40px;
     padding-bottom: 20px;
 }
 
-.company-slogan .highlight{
+.company-slogan .highlight {
     font-weight: 900;
     color: #C8242F;
 }
 
-.content-title h3{
+.content-title h3 {
     font-weight: 400;
     font-size: 25px;
     padding-bottom: 20px;
 }
 
 
-.login-form{
+.login-form {
     width: 70%;
 }
 
-.input input{
+.input input {
     width: 100%;
     font-size: 16px;
     padding-bottom: 20px;
 }
-.input{
+
+.input {
     padding-bottom: 20px;
 }
-.login{
+
+.login {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.btn{
+.btn {
     color: #FFFFFF;
     width: 138px;
-height: 45px;
-background: #C8242F ;
-border-radius: 23px;
-opacity: 1;
+    height: 45px;
+    background: #C8242F;
+    border-radius: 23px;
+    opacity: 1;
 }
 
-
-.hilght{
+.hilght {
     font-weight: 15px;
     color: #C8242F;
 }
 
-
-
+@media (max-width:1024px){
+    .images{
+        height: 400px;
+        width: 400px;
+    }
+    .div1{
+        flex: none;
+    }
+  
+}
