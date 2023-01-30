@@ -82,7 +82,7 @@
     font-weight: 15px;
     color: #C8242F;
 }
-
+/* Responsive-part */
 @media (max-width:1024px){
   .div1{
     position: relative;
