@@ -49,7 +49,7 @@ header {
 }
 
 .input-group .search-input {
-    width: 250px;
+    width: 100px !important;
     border: none;
 }
 
@@ -262,17 +262,36 @@ header {
 
 /* Responsive-part-dashboard */
 @media (max-width:768px){
-    .dashboard-content{
+    /* .dashboard-content{
         display: grid !important;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 16px;
         row-gap: 16px;
-    }
+    } */
 }
-@media(max-width:425px){
-
-    .inner-component{
+@media(max-width:556px){
+    .input-group #basic-addon1{
+        padding-right: 0;
     }
+
+.navbar .navbar-brand img {
+    width: 32px;
+}
+
+    .user-name-btn{
+        display: none !important;
+    }
+
+    .search-input{
+        display: none !important;
+    }
+
+    .sidebar{
+        display: hidden;
+        height: 5000px;
+    }
+
+    
 }
 
 /*Inner page css*/
