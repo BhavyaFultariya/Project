@@ -8,6 +8,8 @@
     
 }
 
+/* Login-Page */
+
 .side-image-container{
     position: relative;
     height: 100vh;
@@ -38,12 +40,14 @@
 
 .description{
     font-size: 16px;
+    color: #FFFFFF
 }
 
 .login-form-container{
     display: flex;
     align-items: center;
-    padding: 0 5rem;
+    padding: 0 4rem;
+    font-size: 14px;
 }
 
 .form-container{
@@ -73,5 +77,28 @@
 }
 
 .ref-link a{
+    text-decoration: none;
+}
+
+/* Forgot Password */
+.title-forgot-pswd{
+    text-align: center;
+    font-size: 22px;
+    color: #414141;
+}
+.des-forgot-pswd{
+    text-align: center;
+    color: #414141;
+    font-size: 14px;
+}
+.lost-forgot-pswd{
+    font-size: 14px;
+}
+.privacy{
+    text-align: center;
+    bottom: 0;
+}
+.privacy-link{
+    font-size: 14px;
     text-decoration: none;
 }
