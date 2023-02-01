@@ -99,9 +99,9 @@
     bottom: 0;
 }
 .privacy-link{
-    margin-left: 44%;
+    margin-left: 150px;
     font-size: 14px;
     text-align: center;
     text-decoration: none;
-    color: #414141;
+    color: #414141; 
 }

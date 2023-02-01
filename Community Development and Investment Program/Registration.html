@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgot Password</title>
+    <title>Registtration</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -23,18 +23,35 @@
             <div class="col-12 col-lg-5 col-xl-4 login-form-container">
                 <form action="" class="form-container">
                     <div class="mb-3">
-                        <p class="title-forgot-pswd">Forgot Password</p>
-                        <p class="des-forgot-pswd">Enter your email address you've using for your account below and we will send you a password reset link</p>
+                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
                       </div>
-                      <button type="submit" class="auth-form-btn">Reset my Password</button>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
+                      <button type="submit" class="auth-form-btn">Register</button>
                       <div class="ref-link">
-                        <a class="lost-forgot-pswd" href="#">Login</a>
+                        <a class="lost-pswd" href="#">Lost your password?</a>
                       </div>
-                      <div class="privacy">
-                        <a class="privacy-link" href="">Privacy</a>
+                      <div class="ref-link">
+                        Already Registred?<a href="#"> Login now</a>
+                      </div>
+                      
+                      <div>
+                        <a class="privacy-link" href="">Privacy policy</a>
                     </div>
                 </form>
             </div>
