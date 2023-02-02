@@ -168,8 +168,8 @@ header {
 }
 .weak {
     margin-top: -1%;
-    margin-left: 480px;
-    margin-right: 5px;
+    /* margin-left: 480px;
+    margin-right: 5px; */
     font-size: 12px;
 }
 
@@ -179,7 +179,7 @@ header {
 
 .year {
     font-size: 12px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     color: red;
 }
 
@@ -261,42 +261,38 @@ header {
 }
 
 /* Responsive-part-dashboard */
-@media (max-width:768px){
-    /* .dashboard-content{
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 16px;
-        row-gap: 16px;
-    } */
-}
-@media(max-width:556px){
-    .input-group #basic-addon1{
-        padding-right: 0;
+
+@media (max-width:1024px){
+    .div1{
+      position: relative;
     }
-
-    .supsub{
-        margin-left: -250px;
+    .content{
+      position: absolute;
     }
-
-.navbar .navbar-brand img {
-    width: 32px;
-}
-
-    .user-name-btn{
-        display: none !important;
-    }
-
-    .search-input{
-        display: none !important;
-    }
-
     .sidebar{
-        display: none;
-        height: 5000px;
+      display: none;
     }
+    header{
+        width: 100%;
+        width: auto;
+    }
+    .navbar{
+        width: 100%;
+    }
+  }
 
+  @media (max-width:768px){
+  .div1{
+    position: relative;
+  }
+  .content{
+    position: absolute;
+  }
+  .dashboard-content{
     
+  
 }
+  }
 
 /*Inner page css*/
 
@@ -321,7 +317,6 @@ header{
 }
 
 .subtopics {
-    /* margin-left: 250px; */
     color: #3E3E3E;
 }
 
@@ -385,7 +380,6 @@ nav.navbar{
 
 .supsub {
     font-size: 18px;
-    /* margin-left: 250px; */
     color: #3E3E3E;
 }
 

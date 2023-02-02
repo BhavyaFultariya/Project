@@ -1,0 +1,12 @@
+@media (max-width:1024px){
+  .div1{
+    position: relative;
+  }
+  .content{
+    position: absolute;
+  }
+  .sidebar{
+    display: none;
+  }
+
+}
