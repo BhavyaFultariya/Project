@@ -168,8 +168,6 @@ header {
 }
 .weak {
     margin-top: -1%;
-    /* margin-left: 480px;
-    margin-right: 5px; */
     font-size: 12px;
 }
 
@@ -179,7 +177,6 @@ header {
 
 .year {
     font-size: 12px;
-    /* margin-left: 5px; */
     color: red;
 }
 
@@ -288,10 +285,6 @@ header {
   .content{
     position: absolute;
   }
-  .dashboard-content{
-    
-  
-}
   }
 
 /*Inner page css*/
